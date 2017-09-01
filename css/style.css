@@ -1,0 +1,46 @@
+html, body {
+	width: 100%;
+	min-height: 100%;
+}
+
+body {
+	padding-top: 1em;
+}
+
+textarea {
+	width: 100%;
+	border: none;
+	padding: 10px;
+}
+
+#texteSource {
+	height: 20em;
+}
+
+#regex {
+	height: 3em;
+}
+
+.deleteLoad {
+	background: linear-gradient(to bottom, #FFD7D7 0, #E6B8B8 100%);
+}
+
+.deleteLoad:hover {
+	background: #E6B8B8;
+}
+
+#ip {
+	width: 70%;
+}
+
+#slashIpCidr {
+	width: 3%;
+}
+
+#cidr {
+	width: 27%;
+}
+
+.form-group {
+	width: 100%;
+}
